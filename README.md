@@ -117,8 +117,8 @@ root            | React.Ref | required |        | pass a ref of the root view
 refView         | string  | required |          | type of your scrollable view. choose one of `ListView`, `ScrollView`, `FlatList`, `SectionList`
 type            | string  | required |          | type of your button component. choose one of `image`, `text`, `icon`
 icon            | React.Element | Yes | null    | custom icon button, if type is `icon`. you can use this to put custom component
-right           | number | Yes      | 60        | distance from the right
-bottom          | number | Yes      | 150       | distance from the bottom
+right           | number | Yes      | 30        | distance from the right
+bottom          | number | Yes      | 30     | distance from the bottom
 width           | number | Yes      | 40        | width of the button and the image if you have
 height          | number | Yes      | 40        | height of the button and the image if you have
 radius          | boolean | Yes     | true      | is a round view
