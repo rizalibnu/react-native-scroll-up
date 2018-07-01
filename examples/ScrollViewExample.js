@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, View, Text, FlatList } from 'react-native';
+import { ScrollView, View, Text } from 'react-native';
 import ScrollUp from 'react-native-scroll-up';
 
 const data = Array.from(Array(20));
