@@ -1,0 +1,31 @@
+{
+  "name": "react-native-scroll-up",
+  "version": "0.1.0",
+  "description": "A React Native component to add custom button for scrolling back to top",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizalibnu/react-native-scroll-up.git"
+  },
+  "keywords": [
+    "react-native",
+    "scrollup",
+    "scrolltotop"
+  ],
+  "author": "Rizal Ibnu <hello@rizalibnu.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rizalibnu/react-native-scroll-up/issues"
+  },
+  "homepage": "https://github.com/rizalibnu/react-native-scroll-up#readme",
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-flowtype": "^2.46.1"
+  }
+}
