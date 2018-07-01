@@ -13,20 +13,25 @@ or
 yarn add react-native-scroll-up
 ```
 
+## Demo
+<https://snack.expo.io/@rizalibnu/react-native-scroll-up-example>
+
 ## Example
 ### Basic Example
 
 ```jsx
 import React from 'react';
-import { ScrollView, View } from 'react-native';
-import ScrollUp from 'react-native-scroll-up'
+import { ScrollView, View, Text } from 'react-native';
+import ScrollUp from 'react-native-scroll-up';
+
+const data = Array.from(Array(20));
 
 class App extends React.Component {
   state = {
     visible: false,
-  }
+  };
 
-  handleOnScroll = (event) => {
+  handleOnScroll = event => {
     const offsetY = event.nativeEvent.contentOffset.y;
 
     if (offsetY > 50) {
@@ -38,23 +43,35 @@ class App extends React.Component {
         visible: false,
       });
     }
-  }
+  };
 
   render() {
     return (
       <React.Fragment>
         <ScrollView
-          ref={(scrollview) => {
+          ref={scrollview => {
             this.scrollview = scrollview;
           }}
-          onScroll={event => this.handleOnScroll(event)}
-        >
-          <View
-            style={{
-              height: 1000,
-              backgroundColor: '#fff',
-            }}
-          />
+          onScroll={event => this.handleOnScroll(event)}>
+          {data.map((item, index) => (
+            <View
+              style={{
+                height: 200,
+                backgroundColor: 'purple',
+                justifyContent: 'center',
+              }}>
+              <Text
+                style={{
+                  marginTop: 100,
+                  textAlign: 'center',
+                  fontWeight: 'bold',
+                  fontSize: 20,
+                  color: 'white',
+                }}>
+                scrollview component {index}
+              </Text>
+            </View>
+          ))}
         </ScrollView>
         <ScrollUp
           refView="ScrollView"
