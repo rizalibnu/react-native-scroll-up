@@ -13,6 +13,9 @@ or
 yarn add react-native-scroll-up
 ```
 
+## Preview
+![preview](/assets/screenshot.gif)
+
 ## Demo
 <https://snack.expo.io/@rizalibnu/react-native-scroll-up-example>
 
