@@ -60,7 +60,8 @@ buck-out/
 .vscode
 
 # assets
-# assets/*.psd
+assets/*.psd
+assets/image-arrow-up.png
 
 # js
 *.copy.js
