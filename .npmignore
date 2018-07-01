@@ -4,3 +4,4 @@ node_modules
 npm-debug.log
 .vscode
 assets/image-arrow-up.png
+assets/*.psd
