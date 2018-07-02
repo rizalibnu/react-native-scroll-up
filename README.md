@@ -136,6 +136,7 @@ Prop            | Type   | Optional | Default   | Description
 root            | React.Ref | required |        | pass a ref of the root view
 refView         | string  | required |          | type of your scrollable view. choose one of `ListView`, `ScrollView`, `FlatList`, `SectionList`
 type            | string  | required |          | type of your button component. choose one of `image`, `text`, `icon`
+visible         | boolean | Yes       | true    | is button visible. you can use this for example button will visible when scroll offset Y more than 50, else button will not visible
 icon            | React.Element | Yes | null    | custom icon button, if type is `icon`. you can use this to put custom component
 right           | number | Yes      | 30        | distance from the right
 bottom          | number | Yes      | 30     | distance from the bottom
