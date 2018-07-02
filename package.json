@@ -1,6 +1,6 @@
 {
   "name": "react-native-scroll-up",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A React Native component to add custom button for scrolling back to top",
   "main": "index.js",
   "directories": {
