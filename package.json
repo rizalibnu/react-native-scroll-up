@@ -26,6 +26,6 @@
   "homepage": "https://github.com/rizalibnu/react-native-scroll-up#readme",
   "devDependencies": {
     "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-flowtype": "^2.46.1"
+    "eslint-plugin-flowtype": "^5.2.0"
   }
 }
